@@ -10,12 +10,16 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
-  margin: 0;
+  /* margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
+  background: linear-gradient(to right, #98fb98, #daa520); */
+}
+
+.background {
   background: linear-gradient(to right, #98fb98, #daa520);
 }
 
