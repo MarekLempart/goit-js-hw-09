@@ -10,9 +10,52 @@ body {
   background-color: #fafafa;
   color: #212121;
   line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: linear-gradient(to right, #98fb98, #daa520);
 }
 
 img {
   display: block;
   max-width: 100%;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.timer .field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.timer .field .value {
+  font-size: 4em;
+}
+
+.timer .field .label {
+  font-size: 1.5em;
+}
+
+button {
+  font-size: 2em;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #ffcc00;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+button:active {
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.2);
 }
