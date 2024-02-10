@@ -4,7 +4,7 @@ import Notiflix from 'notiflix';
 // import { Report } from 'notiflix/build/notiflix-report-aio';
 
 const startButton = (document.querySelector('[data-start]').disabled = true);
-startButton.disabled = true;
+// startButton.disabled = true;
 
 const options = {
   enableTime: true,
