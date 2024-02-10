@@ -63,7 +63,7 @@ function updateTimer(timeDiff) {
   if (timeDiff <= 0) {
     clearInterval(countdownInterval);
     // Report.Success('Success', 'Countdown finished!', 'OK');
-    Notiflix.Notify.Success('Countdown finished!');
+    Notiflix.Notify.success('Countdown finished!');
   }
 }
 
