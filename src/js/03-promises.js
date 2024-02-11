@@ -21,8 +21,11 @@ function createPromise(position, delay) {
     }, delay);
   });
 }
-
 const form = document.querySelector('.form');
+const delayInput = document.querySelector('input[name="delay"]');
+const stepInput = document.querySelector('input[name="step"]');
+const amountInput = document.querySelector('input[name="amount"]');
+
 form.addEventListener('submit', event => {
   event.preventDefault();
   const formData = new FormData(form);
@@ -44,4 +47,7 @@ form.addEventListener('submit', event => {
         );
       });
   }
+  delayInput.value = '';
+  stepInput.value = '';
+  amountInput.value = '';
 });
