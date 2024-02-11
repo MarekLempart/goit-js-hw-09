@@ -45,6 +45,7 @@ document.querySelector('[data-start]').addEventListener('click', startTimer);
 //   countdownInterval = setInterval(() => {
 //     updateTimer(selectedDate - new Date());
 //   }, 1000);
+
 //   document.querySelector('[data-start]').disabled = true;
 // }
 
@@ -61,6 +62,7 @@ function startTimer() {
   countdownInterval = setInterval(() => {
     updateTimer(selectedDate - new Date());
   }, 1000);
+
   document.querySelector('[data-start]').disabled = true;
 }
 
