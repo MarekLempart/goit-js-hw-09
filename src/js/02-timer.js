@@ -75,7 +75,7 @@ function updateTimer(timeDiff) {
   document.querySelector('[data-seconds]').textContent =
     addLeadingZero(seconds);
 
-  if (timeDiff <= 0) {
+  if (timeDiff < 0) {
     clearInterval(countdownInterval);
     // Report.Success('Success', 'Countdown finished!', 'OK');
     Notiflix.Notify.success('Countdown finished!');
